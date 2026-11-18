@@ -29,7 +29,7 @@ Google Colab with NVCC Compiler
 6. Copy output data from the device to the host and verify the results against the host's sequential vector addition. Free memory on the host and the device.
 
 ## PROGRAM:
-```
+```PY
 %%writefile vector_add.cu
 #include <cuda_runtime.h>
 #include <stdio.h>
